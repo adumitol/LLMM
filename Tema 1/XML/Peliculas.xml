@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <catalogo>
-    <pelicula genero="accion">
+    <pelicula genero="accion" duracion="150">
         <titulo>Gladiator</titulo>
         <director>Ridley scott</director>
         <reparto>
@@ -15,8 +15,8 @@
             <anio>2000</anio>
         </fecha_estreno>
     </pelicula>
-    <pelicula genero="ciencia ficcion">
-        <titulo>La llegada</titulo>
+    <pelicula genero="ciencia ficcion" duracion="180">
+        <titulo>La llegada</titulo>ss
         <director>Ridley scott</director>
         <reparto>
             <protagonista>Rusell Crowe</protagonista>
