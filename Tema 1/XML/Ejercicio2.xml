@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+	<Libro>
+		<Titulo>Dia de perros</Titulo>
+		<autores>
+			<Autor>Edgar Allan Poe</Autor>
+			<Autor>JANE AUSTEN </Autor>
+		</autores>
+		<Anio>2007</Anio>
+		<Genero>Ficcion</Genero>
+		<idioma>Espaniol</idioma>
+		<Sinopsis>Si tienes un dia de perros deberias de leer este libro</Sinopsis>
+		<comentarios>
+			<comentario>
+				"he de reconocer que tras mi adolescencia había dejado un poco abandonado el género fantástico (salvo a tolkien, a cuyos libros siempre acabo por volver) y desde que he descubierto a r.r. martin y su soberbia canciÓn de hielo y fuego me "
+			</comentario>
+		</comentarios>
+	</Libro>
+	<Libro>
+		<Titulo>Little Women</Titulo>
+		<autores>
+			<Autor>Louisa May Alcott</Autor>
+			<Autor>Mary Shelley</Autor>
+		</autores>
+		<Anio>2001</Anio>
+		<Genero>Historia</Genero>
+		<idioma>Ingles</idioma>
+		<Sinopsis>4 sisters go trough the war with his mother</Sinopsis>
+		<Comentarios>
+			<comentario>
+				"la última novela de umberto eco ha sido vendida por su editorial como una obra comparable a su famoso libro en nombre de la rosa. después de su gran éxito literario, eco ha realizado varias obras de una gran calidad literaria, pero de "
+			</comentario>
+		</Comentarios>
+	</Libro>
+	<Libro>
+		<Titulo>Sira</Titulo>
+		<autores>
+			<Autor>Maria duenias</Autor>
+			<Autor>Vicotr hugo</Autor>
+		</autores>
+		<Anio>2006</Anio>
+		<Genero>Historia</Genero>
+		<idioma>Espaniol</idioma>
+		<Sinopsis>Cuatro ciudades, dos misiones, una mujer.</Sinopsis>
+		<Comentarios>
+			<comentario>
+				"al leer poesía nunca estamos seguros de haber desentrañado correctamente cada verso, pero nos conformamos con captar la esencia, el estado de ánimo o de desánimo del poeta, la esquirla de mundo exterior que penetra el propio o viceversa. parecida sensación nos queda al terminar " 
+			</comentario>
+		</Comentarios>
+	</Libro>
+</biblioteca>

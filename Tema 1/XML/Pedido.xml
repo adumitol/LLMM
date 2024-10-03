@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedido numero="1111">
+    <destinatario>Jose Antonio Lojo</destinatario>
+    <articulopedidos>
+        <articulo>bicicleta A2020</articulo>
+        <articulo>Ordenador modelo 1345</articulo>
+    </articulopedidos>
+    <direccionDeEntrega>Calle Barco 4, tercer piso, letra A Malaga 29004</direccionDeEntrega>
+    <fechaDeEntrega>20-9-2019</fechaDeEntrega>
+</Pedido>

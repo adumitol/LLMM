@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+	<persona nombre = "Jesus Manuel pino">
+		<fechaDeNacimiento>
+			<dia>10</dia>
+			<mes>2</mes>
+			<anio>1988</anio>
+		</fechaDeNacimiento>
+		<ciudad>Madrid</ciudad>
+	</persona>
+	<persona  nombre ="Maria morgado">
+		<fechaDeNacimiento>
+			<dia>1</dia>
+			<mes>7</mes>
+			<anio>1998</anio>
+		</fechaDeNacimiento>
+		<ciudad>vigo</ciudad>
+	</persona>
+	<persona nombre = "Paula fernandez">
+		<fechaDeNacimiento>
+			<dia>5</dia>
+			<mes>8</mes>
+			<anio>2000</anio>
+		</fechaDeNacimiento>
+		<ciudad>Galicia</ciudad>
+	</persona>
+</personas>

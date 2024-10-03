@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza>
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+    </raza>
+    <raza>
+        <nombre>Corgi</nombre>
+        <origen>Pembrokeshire</origen>
+        <tamanio>
+            <macho>35 a 40 cm</macho>
+            <hembra>30 a 35 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>10 a 12 kg</macho>
+            <hembra>9 a 11 kg</hembra>
+        </peso>
+    </raza>
+    <raza>
+        <nombre>Galgo espaniol</nombre>
+        <origen>Espania</origen>
+        <tamanio>
+            <macho>71 a 76 cm</macho>
+            <hembra>69 a 71 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>30 a 32 kg</macho>
+            <hembra>27 a 30 kg</hembra>
+        </peso>
+    </raza>
+    <raza>
+        <nombre>Pit bull terrier americano</nombre>
+        <abreviatura>APBT</abreviatura>
+        <origen>Estados Unidos</origen>
+        <tamanio>
+            <macho>30 a 50 cm</macho>
+            <hembra>26 a 45 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>18 a 29 kg</macho>
+            <hembra>16 a 27 kg</hembra>
+        </peso>
+    </raza>
+</perro>
