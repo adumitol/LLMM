@@ -6,6 +6,12 @@
         <articulo>bicicleta A2020</articulo>
         <articulo>Ordenador modelo 1345</articulo>
     </articulopedidos>
-    <direccionDeEntrega>Calle Barco 4, tercer piso, letra A Malaga 29004</direccionDeEntrega>
+    <direccionDeEntrega>Calle Barco 4, tercer piso, letra A Malaga 29004
+        <calle>Calle Barco4</calle>
+        <piso>Tercer piso</piso>
+        <letra>letra A</letra>
+        <ciudad>Malaga</ciudad>
+        <cp>29004</cp>
+    </direccionDeEntrega>
     <fechaDeEntrega>20-9-2019</fechaDeEntrega>
 </Pedido>
