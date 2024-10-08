@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hechoshistoricos>
-    <hecho1 nombre="IMB da a conocer el PC">
+    <hecho nombre="IMB da a conocer el PC">
         <fecha>
             <dia>12</dia>
             <mes>8</mes>
             <anio>1981</anio>
         </fecha>
-    </hecho1>
+    </hecho>
     <hecho nombre="Se funda google"> 
         <fecha> 
             <dia>4</dia>
