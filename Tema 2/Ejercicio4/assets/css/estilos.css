@@ -1,0 +1,26 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin: 20 px auto;
+}
+
+.lista{
+    background-color:lightcoral;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+    padding: 20px;
+    
+}
