@@ -21,7 +21,6 @@ ul{
     box-shadow: 2px 2px 5px black;
     padding: 20px;
     width: 90%;
-    list-style-image: url(../imagen/carpeta.gif);
 }
 nav{
 overflow: hidden;

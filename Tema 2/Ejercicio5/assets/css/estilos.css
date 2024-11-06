@@ -1,0 +1,76 @@
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+}
+.portada{
+    text-align: center;
+}
+.honda1{
+    float: right;
+}
+.honda2{
+    float: left;
+    padding-right: 10px;
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    margin: auto;
+    background-color: #E9ECFC;
+    width: 90%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: right;
+    border-bottom: 2px solid;
+}
+ol{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: blue;
+    background-color: yellow;
+    border: 2px dotted;
+    text-align: left;
+    width: 40%;
+    margin: 20px  20px auto 5px;
+    padding:20px 20px 20px 30px;
+
+}
+
+.Presupuesto{
+    font-size:30px ;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 1px;
+}
+.rojo{
+    color: red;
+}
+.Fotos{
+    text-align: center;
+}
+a:link {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    color: rgb(25, 42, 194);
+
+}
+a:hover {
+    color: rgb(255, 0, 0);
+}
