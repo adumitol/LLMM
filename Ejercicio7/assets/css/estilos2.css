@@ -1,0 +1,58 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: black;
+    font-style: normal;
+    background-color: rgb(201, 191, 191);
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+form{
+    background-color: #ffcc99;
+    
+}
+h1{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+label{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+div {
+    margin-bottom: 5px;
+}
+.titulo{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.Ingredientes{
+    display: block;
+}
+.Tamaño{
+    display: block;
+}
+.Pago{
+    display: block;
+}
+div {
+    margin-bottom: 15px;
+}
