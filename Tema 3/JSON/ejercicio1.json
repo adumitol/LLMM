@@ -1,0 +1,10 @@
+{
+    "Nombre": "Empresa",
+    "datos": {
+        "Direccion": "Calle manoleitor 23",
+        "Telefono": "602346213",
+        "Email": "ejercicio1@gmail.com"
+    },
+    "Numero Empleados": 889,
+    "Deudas": true
+}

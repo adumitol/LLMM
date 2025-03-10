@@ -1,0 +1,66 @@
+/* General styles for the grid container */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    width: 50%;
+}
+
+
+.CajaVerdeOscuro {
+    background-color: green;
+    padding: 10px;
+    grid-column-start: 1;
+    border: 2px solid black;
+}
+
+.CajaAzul{
+    background-color: blue;
+    grid-column-start: 1;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.CuartaCaja{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.CajaAzulClaro{
+    background-color: rgb(73, 73, 252);
+    grid-column-start: 1;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.CajaVerdeClaro{
+    background-color: rgb(14, 243, 7);
+    grid-column-start: 2;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.CajaRoja {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Cajas negras */
+.CajaNegra {
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+}

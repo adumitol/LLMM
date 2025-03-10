@@ -1,0 +1,41 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 5px;
+}
+
+
+.click1{
+    text-align: center;
+    background-color: rgb(216, 203, 203);
+}
+
+.click2{
+    text-align: center;
+    background-color: rgb(216, 203, 203);
+}
+
+.urus{
+    text-align: center;
+}
+.segundo{
+    background-color: rgb(216, 203, 203);
+    text-align: center;
+}
+
+
+.tercero{
+    background-color: rgb(216, 203, 203);
+    text-align: center;
+}
+
+.cuarto{
+    text-align: center;
+    background-color: rgb(216, 203, 203);
+}
+
+.quinto{
+    text-align: center;
+    background-color: rgb(216, 203, 203);
+}

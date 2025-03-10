@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.Buscador{
+    text-align: center;
+    border: 1px dotted black;
+    padding: 10px;
+    margin-bottom: 10px;
+}

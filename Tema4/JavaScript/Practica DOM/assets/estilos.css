@@ -1,0 +1,41 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600PX;
+    gap: 5px;
+}
+
+.tercero{
+    text-align: center;
+}
+
+.ultima{
+    text-align: center;
+}
+
+.fondo{
+    text-align: center;
+    margin-top: 100px;
+}
+.edad{
+    text-align: center;
+    margin-top: 100px;
+}
+.primero{
+    text-align: center;
+    margin-top: 80px;
+}
+.urus{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+}
+
+.negro{
+    background-color: rgb(0, 0, 0);
+    height: 260px;
+}
+
+.nueva {background-color:red};
+

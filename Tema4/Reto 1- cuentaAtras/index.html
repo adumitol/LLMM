@@ -1,0 +1,48 @@
+<!doctype html5>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cuenta Atras</title>
+	<script>
+		// Definimos las dos variables para los contadores
+		let n = 9;
+		let j = 9;
+
+		// Función que se ejecuta al abrir la página y define lo que se hace cada segundo
+		function cuentaAtras() {
+			// Ejecutamos la funcion 'marchaAtrasJ' cada 1000 milisegundos (1 segundo)
+			setInterval(marchaAtrasJ, 1000);
+			// Ejecutamos la funcion 'marchaAtrasN' cada 10000 milisegundos (10 segundos)
+			setInterval(marchaAtrasN, 10000);
+		}
+
+		// Esta funcion actualiza el contador 'j' cada segundo
+		function marchaAtrasJ() {
+			if (j > 0) {
+				j = j - 1;
+			} else {
+				j = 9;
+			}
+			// Actualizamos la imagen del contador 'j'
+			document.getElementById("cuenta2").src = j + ".png";
+		}
+
+		// Esta funcion actualiza el contador 'n' cada 10 segundos
+		function marchaAtrasN() {
+			if (n > 0) {
+				n = n - 1;
+			} else {
+				n = 9;
+			}
+			// Actualizamos la imagen del contador 'n'
+			document.getElementById("cuenta").src = n + ".png";
+		}
+	</script>
+</head>
+<body onload="cuentaAtras()"> 
+	<div id="numeros">
+		<img src="9.png" id="cuenta">
+		<img src="9.png" id="cuenta2">
+	</div>
+</body>
+</html>

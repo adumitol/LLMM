@@ -1,0 +1,19 @@
+{
+"Numero de estudiantes":{
+    "Primaria": 100,
+    "Secundaria": 200,
+    "Formacion Profesional":{
+        "Grado Medio": 150,
+        "Grado Superior": 100,
+        "Fp Basica": 50
+    },
+    "Bachillerato": 200
+},
+"Nombre del centro": "IES Al-Ándalus",
+"Ciudad": {
+    "Nombre": "Almeria",
+    "Provincia": "Almería",
+    "Codigo Postal": "04006",
+    "Distantancia a la capital ": 2.5
+}
+}

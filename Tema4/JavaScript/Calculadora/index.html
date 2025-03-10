@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/estilos.css" type="text/css"> 
+</head>
+<body>
+    <form id="calculadora">
+        <h1>Calculadora</h1>
+
+        <label for="numero1">Número 1:</label>
+        <input type="text" class="num1" required>
+        
+        <label for="numero2">Número 2:</label>
+        <input type="text" class="num2" required>
+        
+        <label for="operacion">Operación:</label>
+        <select class="operacion">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">División</option>
+        </select>
+
+        <button type="button" class="calcular">Calcular</button>
+        <div class="Res">
+            <label for="resultado">Resultado:</label>
+            <input type="text" class="resultado" readonly>
+        </div>
+    </form>
+    <script type="text/javascript" src="./assets/codigo.js"></script>
+</body>
+</html>

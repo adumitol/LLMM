@@ -1,0 +1,31 @@
+{
+"Nombre y apellidos": "Jesus martinez",
+"Datos de contacto": {
+    "Correo electronico": "jesusmar@gmail.com",
+    "Telefono": "27364984828"
+},
+"Ciudad de origen del viajero": "Malaga",
+"Nombres acompanyan": ["martin,Manolo,Martin,laura"],
+"Gasto total del viaje:":1000,
+"Relacion de destinos": [{
+    "Satisfecho":false,
+    "Ciudad":"Dublin",
+    "Hotel":{
+        "Nombre":"Palace",
+        "Estrellas":"4",
+        "Precio por noche": 100,
+        "Numero de noches": 4
+    }
+},
+{
+    "Satisfecho":true,
+    "Ciudad":"Japon",
+    "Hotel":{
+        "Nombre":"JOSSe",
+        "Estrellas":"5",
+        "Precio por noche": 200,
+        "Numero de noches": 3
+    }
+}
+]
+}
