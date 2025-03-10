@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Esto es una pagina de prueba"/>
+    <meta name="Author" content="Adam Rouidi Belhaj"/>
+    <meta name="Keywords" content="etiquetas, pagina"/>
+    <link rel="stylesheet" href="./assets/estilos.css" type="text/css"> 
+    <title>Tema2/Ejercicio6</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Pedido Pizza</h1></legend>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="Direccion">Direccion</label>
+            <input type="text" minlength="0" id="Direccion" name="Direccion" required>
+        </div>
+        <div>
+            <label for="Edad">Edad</label>
+            <input type="number" minlength="0" id="Edad" name="Edad" required min="25" max="65">
+        </div>
+    
+        <div>
+            <label for="Ingredientes">Ingredientes:</label>
+            <input type="radio" id="Ingredientes2" name="Ingredientes2" value="queso"></input>
+            <label for="Ingredientes2">queso</label>
+            <input type="radio" id="Ingredientes3" name="Ingredientes3" value="cebolla"></input>
+            <label for="Ingredientes3">cebolla</label>
+            <input type="radio" id="Ingredientes4" name="Ingredientes4" checked value="pimiento"></input>
+            <label for="Ingredientes4">pimiento</label>
+            <input type="radio" id="Ingredientes5" name="Ingredientes5" checked value="piña"></input>
+            <label for="Ingredientes5">piña</label>
+        </div>
+        <div>
+            <label for="comida">Tamaño</label>
+            <input type="checkbox" id="Pequeña" name="Pequeña" value="Pequeña">Pequeña</input>
+            <input type="checkbox" id="Mediana" name="Mediana" value="Mediana">Mediana</input>
+            <input type="checkbox" id="Grande" name="Grande" value="Grande">Grande</input>
+        </div>
+        <div>
+            <label for="comida">Tarjeta</label>
+            <select id="Tarjeta" name="Tarjeta">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            </select>
+        </div>
+        <div>
+            <label for="Comentarios">Comentarios </label>
+            <textarea cols="40" rows="5" maxlength="100"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar">
+        </div>
+        </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Esto es una pagina de prueba"/>
+    <meta name="Author" content="Adam Rouidi Belhaj"/>
+    <meta name="Keywords" content="etiquetas, pagina"/>
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <h1>Ejercicio1</h1>
+    <fieldset>
+    <legend><p>Datos Personales</p></legend>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre">
+    </div>
+    <div>
+        <label for="Edad">Edad</label>
+        <input type="number" minlength="0" id="Edad" name="Edad" >
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend><p>Informacion del comercio</p></legend>
+    <div>
+        <label for="Usuario">Usuario</label>
+        <input type="text" id="Usuario" name="Usuario" placeholder="Pon tu usuario" required maxlength="60">
+    </div>
+    <div>
+        <label for="Contrasenia">Contrasenia</label>
+        <input type="password" id="Contrasenia" name="Contrasenia" required maxlength="60">
+    </div>
+    <div>
+        <label for="Comentario">Comentario</label>
+        <input type="text" id="Comentario" name="Comentario" placeholder="Pon tu comentario">
+    </div>
+    <div>
+        <label for="email">Correo electronico:</label>
+        <input type="email" id="email" name="email" placeholder="Pon tu email" maxlength="70">
+    </div>
+    <div>
+        <label for="Fecha">Fecha de nacimiento</label>
+        <input type="date" id="Fecha" name="Fecha">
+    </div>
+    <div>  
+        <label for="Fichero">Introduce un fichero</label>
+        <input type="file" id="Fichero" name="Fichero">
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+    </div>
+</fieldset>
+<h1>Ejercicio2</h1>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre">
+    </div>
+    <div>
+        <label for="Mensaje">Mensaje:</label>
+        <textarea cols="40" rows="5" maxlength="100"></textarea>
+    </div>
+    <div>
+        <label for="color">Seleccione el color de su avatar:</label>
+        <input type="color" id="color" name="color">
+    </div>
+    <div>
+        <input type="submit" value="Enviar comentario">
+    </div>
+    <h1>Ejercicio3</h1>
+    <div>
+        <label for="comida">Elige tu comida favorita:</label>
+        <select id="comida" name="comida">
+        <option value="Ensalada">Ensalada</option>
+        <option value="Kebab">Kebab</option>
+        <option value="Pizza">Pizza</option>
+    </select>
+    </div>
+    <h1>Ejercicio4</h1>
+    <div>
+        <label for="comida">Elige tu comida favorita:</label>
+        <input type="checkbox" id="comida" name="comida" value="Kebab">Kebab</input>
+        <input type="checkbox" id="comida" name="comida" value="Ensalada">Ensalada</input>
+        <input type="checkbox" id="comida" name="comida" value="Hamburguesa">Hamburguesa</input>
+        <input type="checkbox" id="comida" name="comida" checked value="Pizza">Pizza</input>
+        
+    </div>
+    <div>
+        <label for="pago">Metodo paga:</label>
+        <input type="radio" id="pago" name="pago" value="Vale">Vale</input>
+        <input type="radio" id="pago" name="pago" value="Tarjeta">Tajeta</input>
+        <input type="radio" id="pago" name="pago" checked value="CASH">CASH</input>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+    </div>
+</body>
+
+</html>

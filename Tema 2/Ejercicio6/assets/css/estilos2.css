@@ -1,0 +1,37 @@
+table.Nota {
+    text-align: center;
+    margin: 5px auto 5px auto;
+    border: solid 1px;
+    border-collapse: collapse;
+    text-align: left;
+    
+  }
+  table.Nota,td,th {
+    padding: 8px;
+    border-bottom: solid 1px;
+    border-color: rgb(179, 166, 166);
+    
+  }
+  table.Nota th {
+    background-color: aquamarine;
+    color: white;
+  }
+  table.Nota td.Encabezado1 {
+    background-color: rgb(173, 155, 122);
+    text-align: left;
+    color: white;
+  }
+  table.Nota td.Amarillo {
+    background-color: rgb(208, 211, 11);
+    text-align: left;
+    border-bottom: solid 1px;
+    border-color: rgb(165, 150, 150);
+    color: white;
+  }
+  table.Nota caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: rgb(32, 34, 163);
+    text-align: center;
+    font-weight: bold;
+ }

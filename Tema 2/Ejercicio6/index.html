@@ -10,9 +10,10 @@
     <title>Tema2/Ejercicio6</title>
 </head>
 <body>
-    <table>
+    <table class="Horario">
         <caption>Horario</caption>
-    <tr>
+    <tr class="Encabezado">
+        <th>Horas</th>
         <th>Lunes</th>
         <th>Martes</th>
         <th>Miercoles</th>
@@ -20,6 +21,7 @@
         <th>Viernes</th>
     </tr>
     <tr class="gris">
+        <th >8:15-9:15</th>
         <td>Tecnologia</td>
         <td>Informatica</td>
         <td>Informatica</td>
@@ -27,20 +29,30 @@
         <td>Tecnologia</td>
     </tr>
     <tr class="azul">
-        <td>Matematicas</td>
+        <th>9:15-10:15</th>
+        <td rowspan="2">Matematicas</td>
         <td>Matematicas</td>
         <td>Tecnologia</td>
         <td>Tecnologia</td>
         <td>Matematicas</td>
     </tr>
+    <tr>
+        <th>2 juntas</th>
+    </tr>
     <tr class="gris">
+        <th>10:15-11:15</th>
         <td>E.fisica</td>
         <td>Lenguaje</td>
         <td>Latin</td>
         <td>Matematicas</td>
         <td>Lenguaje</td>
     </tr>
+    <tr class="recreo">
+        <th>11:15-11:45</th>
+        <th colspan="5">RECREO </th>
+    </tr>
     <tr class="azul">
+        <th>11:45-12:45</th>
         <td>Frances</td>
         <td>Informatica</td>
         <td>E.fisica</td>
@@ -48,6 +60,7 @@
         <td>Latin</td>
     </tr>
     <tr class="gris">
+        <th>12:45-13:45</th>
         <td>Latin</td>
         <td>Ingles</td>
         <td>Frances</td>
@@ -55,6 +68,7 @@
         <td>Informatica</td>
     </tr>
     <tr class="azul">
+        <th>13:45-14:45</th>
         <td>Ingles</td>
         <td>Frances</td>
         <td>Lenguaje</td>

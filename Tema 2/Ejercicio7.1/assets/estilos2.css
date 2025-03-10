@@ -1,0 +1,110 @@
+body{
+    margin: 20px 0 0 0;
+    font: Arial 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: grey;
+}
+Form{
+    border: solid 2px black;
+    background-color: #ffcc99;
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+}
+.encabezado {
+    display: block;
+    clear: both;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(243, 168, 6);
+}
+
+div.bloque {
+    display: block;
+    clear: both;
+    margin: 15px 0 0 0 ;
+    float: left;
+    
+}
+div.bloque input{
+    margin-left: 10px;
+}
+
+.bloquecontenedor{
+    display: block;
+    clear: both;
+    margin: 15px 0 0 0;
+    width: 100%;
+}
+
+div .linea p{
+    display: block;
+    clear: both;
+    border: solid 1px brown;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: brown;
+}
+
+div .linea{
+    display: inline;
+    clear: none;
+    width: 29%;
+    float: left;
+    padding: 15px;
+    height: 100%;
+}
+
+div.bloque2{
+    display: block;
+    clear: both;
+    margin: 14px 0 0 0;
+    padding: 10px;
+}
+
+div.bloque2 label{
+    width: 90%;
+    display: inline;
+    float: right;
+}
+
+div.bloque label{
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    float: left;
+    background-color: brown;
+}
+
+
+
+div.BloqueBotones{
+    display: block;
+    clear: both;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+div.bloque2 p{
+    display: block;
+    clear: both;
+    border: solid 1px brown;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: brown;
+}
+
+.textarea{
+    text-align: center;
+}
+

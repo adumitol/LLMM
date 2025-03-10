@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Esto es una pagina de prueba"/>
+    <meta name="Author" content="Adam Rouidi Belhaj"/>
+    <meta name="Keywords" content="etiquetas, pagina"/>
+    <link rel="stylesheet" href="./assets/estilos2.css" type="text/css"> 
+    <title>Tema2/Ejercicio6</title>
+</head>
+<body>
+<Form>
+    <div class="encabezado">
+        <h1>-Pedido Pizza-</h1>
+    </div>
+    <div class="bloque">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="bloque">
+        <label for="Direccion">Direccion</label>
+        <input type="text" minlength="0" id="Direccion" name="Direccion" required>
+    </div>
+    <div class="bloque">
+        <label for="Edad">Edad</label>
+        <input type="number" minlength="0" id="Edad" name="Edad" required min="25" max="65">
+    </div>
+    <div class="bloquecontenedor">
+        <div class="linea">
+            <p>Ingredientes</p>
+        <div>
+            <input type="radio" id="Ingredientes1" name="Ingredientes1" value="queso"></input>
+            <label for="Ingredientes1">queso</label>
+            
+        </div>
+        <div>
+            <input type="radio" id="Ingredientes2" name="Ingredientes2" value="pimiento"></input>
+            <label for="Ingredientes2">pimiento</label>
+            
+        </div>
+        <div>
+            <input type="radio" id="Ingredientes3" name="Ingredientes3" value="cebolla"></input>
+            <label for="Ingredientes3">cebolla</label>
+            
+        </div>
+        </div>
+
+        <div class="linea">
+            <p>Tamaño</p>
+        <div>
+            <input type="checkbox" id="Pequeña" name="Pequeña" value="Pequeña"></input>
+            <label for="comida">Pequeña</label>
+            
+        </div>
+        <div>
+            <input type="checkbox" id="Mediana" name="Mediana" value="Mediana"></input>
+            <label for="comida">Mediana</label>
+            
+        </div>
+        <div>
+            <input type="checkbox" id="Grande" name="Grande" value="Grande"></input>
+            <label for="comida">Grande</label>
+            
+        </div>
+        </div>
+
+        <div class="linea">
+            <p>Formas de pago</p>
+        <div>
+            <select id="Tarjeta" name="Tarjeta">
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+        </div>
+        </div>
+    </div>
+    
+    <div class="bloque2">
+        <p>Instrucciones especiales</p>
+        <div class="textarea">
+            <label for="InstruccionesEspeciales"></label>
+            <textarea cols="40" rows="5" maxlength="100"></textarea>
+        </div>
+    </div>
+
+    <div class="BloqueBotones">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </div>
+    
+
+</Form>
+    
+</body>
+</html>
