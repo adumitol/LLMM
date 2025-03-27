@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante SYSTEM "./assets/ejemplo3.dtd">
+
+<restaurante>
+    <menu>
+        <platos>
+            <plato>
+                <nombre>Ensalada César</nombre>
+                <categoria>Entrada</categoria>
+                <lista_ingredientes>
+                    <ingrediente>Lechuga romana</ingrediente>
+                    <ingrediente>Queso parmesano</ingrediente>
+                    <ingrediente>Picatostes</ingrediente>
+                    <ingrediente>Salsa César</ingrediente>
+                </lista_ingredientes>
+                <precio moneda="EUR">8.50</precio>
+            </plato>
+        </platos>
+    </menu>
+    <recetas comensales="adultos">
+        <receta>
+            <nombre>Ensalada César</nombre>
+            <lista_ingredientes1>
+                <ingrediente1 cantidad="200g">
+                    <nombre>Lechuga romana</nombre>
+                </ingrediente1>
+                <ingrediente1 cantidad="100g">
+                    <nombre>Queso parmesano</nombre>
+                </ingrediente1>
+                <ingrediente1 cantidad="50g">
+                    <nombre>Picatostes</nombre>
+                </ingrediente1>
+                <ingrediente1 cantidad="100ml">
+                    <nombre>Salsa César</nombre>
+                </ingrediente1>
+            </lista_ingredientes1>
+            <pasos>
+                <paso>Lavar y cortar la lechuga.</paso>
+                <paso>Rallar el queso parmesano.</paso>
+                <paso>Mezclar todos los ingredientes en un bol.</paso>
+                <paso>Agregar la salsa y servir.</paso>
+            </pasos>
+        </receta>
+    </recetas>
+    <clientes>
+        <cliente>
+            <nombre>Juan Pérez</nombre>
+            <telefono>+34 600 123 456</telefono>
+            <email>juan.perez@example.com</email>
+            <pedidos>
+                <pedido>
+                    <fecha>2025-03-25</fecha>
+                    <platos1>
+                        <plato1>Ensalada César</plato1>
+                    </platos1>
+                </pedido>
+            </pedidos>
+        </cliente>
+    </clientes>
+</restaurante>
