@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="nombrePropio">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([A-Z0-9][A-Za-z0-9\-']* ?)+"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="year">
+		<xs:restriction base="xs:gYear">
+			<xs:minInclusive value="1950"></xs:minInclusive>
+			<xs:maxInclusive value="1970"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="duracionCancion">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="corta"></xs:enumeration>
+			<xs:enumeration value="media"></xs:enumeration>
+			<xs:enumeration value="larga"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="cancion">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="titulo" type="nombrePropio"/>
+				<xs:element name="año" type="year"/>
+				<xs:element name="artista" type="nombrePropio"/>
+				<xs:element name="duracion" type="duracionCancion"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
