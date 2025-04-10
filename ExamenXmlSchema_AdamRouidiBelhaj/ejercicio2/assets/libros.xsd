@@ -38,7 +38,7 @@
                                     <xs:attribute name="nacionalidad" type="nacionalidad" use="required" />
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="fechaPublicacion" type="xs:string" />
+                            <xs:element name="fechaPublicacion" type="xs:date" />
                         </xs:sequence>
                         <xs:attribute name="prestado" type="xs:boolean" use="required" />
                     </xs:complexType>
