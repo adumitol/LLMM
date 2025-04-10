@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "alumnos.dtd">
+<alumnos>
+    <alumno num_alumno = "A234" informacion = "172cm" sexo = "hombre">        <!-- Opcional-->
+        <nombre>Juan Jose</nombre>
+        <apellidos>luna dominguez</apellidos>
+        <domicilio>C.cedron 13</domicilio>
+        <telefono propietario = "propio">644773892</telefono>        <!-- mas de 1 puede-->
+        <aficiones>
+            <aficion>Futbol</aficion>
+            <aficion>Pintar</aficion>
+        </aficiones>
+        <equipo>Ies ciudad de melilla</equipo>        <!-- Opcional-->
+        <comentarios>
+            <comentario>Es muiy bueno</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion trimestre = "primera">4</evaluacion>            <!-- Por defecto primera-->
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno = "A124">        <!-- Opcional-->
+        <nombre>Maria jose</nombre>
+        <apellidos>castillo vargas</apellidos>
+        <domicilio>C.cedron 22</domicilio>
+        <telefono propietario = "padre">543322132</telefono>        <!-- mas de 1 puede-->
+        <aficiones>
+            <aficion>Futbol</aficion>
+            <aficion>Pintar</aficion>
+        </aficiones>        <!-- Opcional-->
+        <comentarios>
+            <comentario>Es muy bueno</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion trimestre = "primera">7</evaluacion>            <!-- Por defecto primera-->
+        </evaluaciones>
+    </alumno>
+</alumnos>

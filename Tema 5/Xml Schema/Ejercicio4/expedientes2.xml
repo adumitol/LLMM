@@ -13,7 +13,7 @@
         <titulacion>DAW</titulacion>
         <estudiante>Ferran Soler Puig</estudiante>
         <modulos>
-            <modulo nombre="Programación" aprobado="true" curso="Primero" />
+            <modulo nombre="Programación" aprobado="true" curso="Primero"/>
             <modulo nombre="Desarrollo web en entorno cliente" aprobado="false" curso="Segundo" />
         </modulos>
     </expediente>

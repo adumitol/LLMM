@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="edad">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="18"></xs:minInclusive>
+            <xs:maxInclusive value="120"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="titulo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9\s]+"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="nacionalidad">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="española"></xs:enumeration>
+            <xs:enumeration value="inglesa"></xs:enumeration>
+            <xs:enumeration value="francesa"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="titulo" />
+                            <xs:element name="autor">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="edad" type="edad" />
+                                    </xs:all>
+                                    <xs:attribute name="nacionalidad" type="nacionalidad" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fechaPublicacion" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="prestado" type="xs:boolean" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
