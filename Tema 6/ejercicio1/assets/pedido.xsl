@@ -48,7 +48,7 @@
                         <th>Bateria</th>
                     </tr>
                     <xsl:for-each select="pedido/tablets/tablet">
-                        <xsl:if test="caracteristicas/memoria &gt; 2 and caracteristicas/tamanio &gt;= 6">
+                        <xsl:if test="caracteristicas/memoria &gt;= 2 and caracteristicas/tamanio &gt;= 7">
                             <tr>
                                 <td>
                                     <xsl:value-of select="plataforma"/>
