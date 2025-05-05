@@ -74,12 +74,14 @@
                                 <xsl:value-of select="categoria"/>
                             </td>
                             <td>
-                                <xsl:if test="@prestado='sí'">
-                                    <span class="amarillo">Prestado</span>
-                                </xsl:if>
-                                <xsl:if test="@prestado='no'">
+                                <xsl:choose>
+                                    <xsl:when test="@prestado='sí'">
+                                        <span class="amarillo">Prestado</span>
+                                    </xsl:when>
+                                    <xsl:otherwise>
                                     Disponible
-                                </xsl:if>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </td>
                         </tr>
                     </xsl:for-each>
