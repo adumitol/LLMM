@@ -5,24 +5,25 @@
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
   <xsl:template match="/estudiantes">
-    <html>
-      <head>
-        <title>Lista de Estudiantes</title>
-        <link rel="stylesheet" type="text/css" href="assets/listaEstudiantes.css"/>
-      </head>
-      <body>
-        <h2>Lista de Estudiantes</h2>
-        
+  <html>
+    <head>
+      <title>Lista de Estudiantes</title>
+      <link rel="stylesheet" type="text/css" href="assets/listaEstudiantes.css"/>
+    </head>
+    <body>
+      <div><h1>Lista de Estudiantes</h1></div>
+      <xsl:for-each select="estudiante">
+        <xsl:sort select="edad" order="descending"/>
         <ul>
-          <xsl:for-each select="estudiante">
-          <li><xsl:value-of select="nombre"/></li><br/>
-          <li><xsl:value-of select="edad"/></li><br/>
-          <li><xsl:value-of select="calificacion"/></li><br/>
-        </xsl:for-each>
+          <xsl:attribute name="class">
+            <xsl:if test="calificacion &gt; 9">verde</xsl:if>
+          </xsl:attribute>
+          <li><strong>Nombre: </strong><xsl:value-of select="nombre"/></li>
+          <li><strong>Edad: </strong><xsl:value-of select="edad"/></li>
+          <li><strong>Calificación: </strong><xsl:value-of select="calificacion"/></li>
         </ul>
-      
-      </body>
-    </html>
-  </xsl:template>
-
+      </xsl:for-each>
+    </body>
+  </html>
+</xsl:template>
 </xsl:stylesheet>

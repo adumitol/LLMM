@@ -4,3 +4,15 @@ body {
 .verde {
   background-color: #09aa39;
 }
+div {
+  background-color: red;
+  text-align: center;
+}
+h1 {
+  color: rgb(115, 156, 115);
+}
+ul {
+  border: 1px solid;
+  border-radius: 10px;
+  list-style-type: none;
+}

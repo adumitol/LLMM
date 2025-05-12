@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tarjeta {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.destacada {
+  border-color: blue;
+}
+
+h1 {
+  color: blue;
+  background-color: yellow;
+  text-align: center;
+}
+
+body {
+  background-color: beige;
+}
