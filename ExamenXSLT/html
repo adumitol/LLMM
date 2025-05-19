@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<html>
+  <head>
+    <title>Examen XSLT</title>
+    <link rel="stylesheet" type="text/css" href="assets/estilos.css"/>
+  </head>
+  <body>
+    <h1>Lista de Productos (Grijander S.A.)</h1>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Peso</th>
+        <th>Descripcion</th>
+        <th>Ciudades</th>
+      </tr>
+      <tr>
+        <td>
+          <span class="rojo">Botella de Agua</span>
+        </td>
+        <td>0.60eur</td>
+        <td>0.5kg</td>
+        <td>Botella de agua mineral de 1L</td>
+        <td>Barcelona (8)
+                </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="rojo">Manzana</span>
+        </td>
+        <td>1.20eur</td>
+        <td>0.8kg</td>
+        <td>Fruta fresca de temporada</td>
+        <td>Madrid (5)
+                </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="azul">Impresora</span>
+        </td>
+        <td>120.50usd</td>
+        <td>6.2kg</td>
+        <td>Impresora multifunción con Wi-Fi</td>
+        <td>Chicago (2)
+                </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="rojo">Café en grano</span>
+        </td>
+        <td>15.75eur</td>
+        <td>750g</td>
+        <td>Café arábica 100% en paquete sellado</td>
+        <td>Berlín (4)
+                </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="azul">Portátil</span>
+        </td>
+        <td>799.99usd</td>
+        <td>2.5kg</td>
+        <td>Ordenador portátil con 16GB de RAM y SSD</td>
+        <td>New York (10)
+                </td>
+      </tr>
+    </table>
+    <p>Direccion de la empresa <strong>Calle de la Innovación, 123</strong></p>
+  </body>
+</html>
